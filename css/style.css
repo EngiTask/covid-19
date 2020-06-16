@@ -1,0 +1,85 @@
+/* 
+
+Project Name: COVID-19 
+Author: Vasu_Kaushik
+
+*/
+
+body {
+	background: url('../images/worldmap.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#container {
+    background: transparent;
+    width: 424px;
+    color: white;
+    padding: 10px;
+    margin: 0 auto 0 auto;
+
+}
+
+h1 {
+    background: #F82626;
+    color: #ffffff;
+    font-size: 40px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 40px;
+    margin: 0 100px 0 100px;
+}
+
+h2 {
+    background: #F82626;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 40px;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+h3 {
+    background: #F82626;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 40px;
+    margin: 20px 90px 20px 95px;
+}
+
+p {
+    background:#F82626;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 7px;
+    font-family: 'Rokkitt', serif;
+}
+
+ul {
+    color: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    font-family: 'Rokkitt', serif;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+#main {
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+}
+
+p.imp {
+    margin: 20px 97px 0 107px;
+}
